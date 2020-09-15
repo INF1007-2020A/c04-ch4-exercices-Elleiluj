@@ -26,7 +26,7 @@ def get_number_of_char(string: str, char: str) -> int:
     count = 0
     for i in range(len(string)):
         if (string[i]==char):
-            count 
+            count += 1
 
 
 def get_number_of_words(sentence: str, word: str) -> int:
