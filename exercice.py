@@ -15,7 +15,6 @@ def remove_third_char(string: str) -> str:
     return beginning + end
     
 
-
 def replace_char(string: str, old_char: str, new_char: str) -> str:
     pass
 
