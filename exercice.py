@@ -10,8 +10,8 @@ def is_even_len(string: str) -> bool:
 
 
 def remove_third_char(string: str) -> str:
-    beginning = string[0,2]
-    end = string[3]
+    beginning = string[0:2]
+    end = string[3:]
     
 
 
