@@ -34,8 +34,8 @@ def get_number_of_words(sentence: str, word: str) -> int:
     count = 0
     for i in range(len(sentence)):
         if (sentence[i] == word [j])
-            i +=1 
-            
+            i += 1 
+            j += 1
         for j in range(len(word)):
             if (sentence[i] == word[j])
             count += 1
