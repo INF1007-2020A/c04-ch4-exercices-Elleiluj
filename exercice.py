@@ -33,7 +33,7 @@ def get_number_of_char(string: str, char: str) -> int:
 def get_number_of_words(sentence: str, word: str) -> int:
     for i in range(len(sentence)):
         for i in range(len(word)):
-         if (sentence[i] == word[1])
+            if (sentence[i] == word[1])
     pass
 
 
